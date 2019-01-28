@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta chartset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<meta name="author" content="Alexander Flórez">
+		<meta name="description" content="Curriculum Vitae">
+		<title>Hoja de Vida - Educación</title>
+	</head>
+	<body>
+		<header>
+			<svg>
+			<image xlink:href="img/LogoNombre.svg" width="150px" height="100px" name="Logo personal">La imagen no se puede ver</image>
+			</svg>
+		<h1>Hoja de Vida</h1>
+		</header>
+		<p>
+			<h2>Datos Personales</h2>
+			<h3>Nombre</h3>
+			<p>Armando Alexander Flórez Ortiz</p>
+			<h3>Lugar y Fecha de Nacimiento</h3>
+			<p>Bogota, 3 de Marzo de 1976</p>
+		</p>
+		<nav>	
+			<a href="index.html">Inicio</a> | <a href="experiencia.html">Experiencia</a><br/>
+		</nav>
+		<p>
+			<h3>Educación</h3>
+			<p>
+				<table border="1" cellpadding="10" cellspacing="0">
+					<thead>
+						<tr>
+							<th>Año</th>
+							<th>Intitución</th>
+							<th>Titulo</th>
+							<th>Lugar</th>
+							<th>¿Culminó?</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1992</td>
+							<td>Colegio Jose Maria Cordoba</td>
+							<td>Bachiller</td>
+							<td>Bogota</td>
+							<td>SI</td>
+						</tr>
+						<tr>
+							<td>2001</td>
+							<td>Universidad Distrital</td>
+							<td>Ingeniero Electronico</td>
+							<td>Bogota</td>
+							<td>SI</td>
+						</tr>
+						<tr>
+							<td>2004</td>
+							<td>Universidad Santo tomas</td>
+							<td>Diplomado en Internetworking</td>
+							<td>Bogota</td>
+							<td>SI</td>
+						</tr>
+					</tbody>
+				</table>
+			</p>
+			<p>
+				<form autocomplete="on" name="Formulario">
+				<h4>Agregar Estudios</h4>
+
+					<label for="year">Año</label>
+					<select name=year" id="year">
+						<option value="1">2017</option>
+						<option value="2">2018</option>
+						<option value="3">2019</option>
+						<option value="4">2020</option>
+						<option value="5">2021</option>
+						<option value="6">2022</option>
+					</select>	
+					<br/>
+					<label for="institution">Intitución</label>
+					<input type="text" id="institution" name="name" required>
+					<br/>
+					<label for="grade">Titulo</label>
+					<input type="text" id="grade" name="titulo" required>
+					<br/>
+					<label for="city">Lugar</label>
+					<input type="text" id="city" name="lugar" required>
+					<br/>
+					<label for="ended">Culminó?</label>
+					<select name=ended" id="ended">
+						<option value="1">SI</option>
+						<option value="2">NO</option>
+					</select>	
+					<br/>	
+					<input type="submit" value="Enviar">					
+				</form>
+			</p>
+		</p>
+		<footer>
+			<p>
+				email: aflorezo@hotmail.com<br/> 
+				Telefono: +57 316 4655268<br/>
+				facebook: aflorezo@hotmail.com
+			</p>
+		</footer>
+	</body>
+</html>
